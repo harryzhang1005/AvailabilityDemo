@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		202BADF41D258E2B005FBC55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202BADF31D258E2B005FBC55 /* AppDelegate.swift */; };
+		202BADF61D258E2B005FBC55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202BADF51D258E2B005FBC55 /* ViewController.swift */; };
+		202BADF91D258E2B005FBC55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202BADF71D258E2B005FBC55 /* Main.storyboard */; };
+		202BADFB1D258E2B005FBC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202BADFA1D258E2B005FBC55 /* Assets.xcassets */; };
+		202BADFE1D258E2B005FBC55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202BADFC1D258E2B005FBC55 /* LaunchScreen.storyboard */; };
+		202BAE111D258E40005FBC55 /* Bonaparte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE061D258E40005FBC55 /* Bonaparte.jpg */; };
+		202BAE121D258E40005FBC55 /* Caesar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE071D258E40005FBC55 /* Caesar.jpg */; };
+		202BAE131D258E40005FBC55 /* Darwin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE081D258E40005FBC55 /* Darwin.jpg */; };
+		202BAE141D258E40005FBC55 /* Einstein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE091D258E40005FBC55 /* Einstein.jpg */; };
+		202BAE151D258E40005FBC55 /* Galilei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE0A1D258E40005FBC55 /* Galilei.jpg */; };
+		202BAE161D258E40005FBC55 /* Gandhi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE0B1D258E40005FBC55 /* Gandhi.jpg */; };
+		202BAE171D258E40005FBC55 /* Khan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE0C1D258E40005FBC55 /* Khan.jpg */; };
+		202BAE181D258E40005FBC55 /* Lincoln.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE0D1D258E40005FBC55 /* Lincoln.jpg */; };
+		202BAE191D258E40005FBC55 /* Mandela.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE0E1D258E40005FBC55 /* Mandela.jpg */; };
+		202BAE1A1D258E40005FBC55 /* McCartney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE0F1D258E40005FBC55 /* McCartney.jpg */; };
+		202BAE1B1D258E40005FBC55 /* Newton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE101D258E40005FBC55 /* Newton.jpg */; };
+		202BAE281D258E4C005FBC55 /* Bonaparte.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE1D1D258E4C005FBC55 /* Bonaparte.vcf */; };
+		202BAE291D258E4C005FBC55 /* Caesar.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE1E1D258E4C005FBC55 /* Caesar.vcf */; };
+		202BAE2A1D258E4C005FBC55 /* Darwin.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE1F1D258E4C005FBC55 /* Darwin.vcf */; };
+		202BAE2B1D258E4C005FBC55 /* Einstein.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE201D258E4C005FBC55 /* Einstein.vcf */; };
+		202BAE2C1D258E4C005FBC55 /* Galilei.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE211D258E4C005FBC55 /* Galilei.vcf */; };
+		202BAE2D1D258E4C005FBC55 /* Gandhi.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE221D258E4C005FBC55 /* Gandhi.vcf */; };
+		202BAE2E1D258E4C005FBC55 /* Khan.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE231D258E4C005FBC55 /* Khan.vcf */; };
+		202BAE2F1D258E4C005FBC55 /* Lincoln.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE241D258E4C005FBC55 /* Lincoln.vcf */; };
+		202BAE301D258E4C005FBC55 /* Mandela.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE251D258E4C005FBC55 /* Mandela.vcf */; };
+		202BAE311D258E4C005FBC55 /* McCartney.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE261D258E4C005FBC55 /* McCartney.vcf */; };
+		202BAE321D258E4C005FBC55 /* Newton.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE271D258E4C005FBC55 /* Newton.vcf */; };
+		202BAE341D259894005FBC55 /* PersonPopulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202BAE331D259894005FBC55 /* PersonPopulator.swift */; };
+		533292681F88736F00D7D049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533292671F88736F00D7D049 /* Assets.xcassets */; };
+		533292771F88736F00D7D049 /* Persona_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533292761F88736F00D7D049 /* Persona_macOSTests.swift */; };
+		533292821F88736F00D7D049 /* Persona_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533292811F88736F00D7D049 /* Persona_macOSUITests.swift */; };
+		533292911F88751C00D7D049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332928F1F88751C00D7D049 /* AppDelegate.swift */; };
+		533292921F88751C00D7D049 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533292901F88751C00D7D049 /* ViewController.swift */; };
+		533292931F88763000D7D049 /* Bonaparte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE061D258E40005FBC55 /* Bonaparte.jpg */; };
+		533292941F88763000D7D049 /* Caesar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE071D258E40005FBC55 /* Caesar.jpg */; };
+		533292951F88763000D7D049 /* Darwin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE081D258E40005FBC55 /* Darwin.jpg */; };
+		533292961F88763000D7D049 /* Einstein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE091D258E40005FBC55 /* Einstein.jpg */; };
+		533292971F88763000D7D049 /* Galilei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE0A1D258E40005FBC55 /* Galilei.jpg */; };
+		533292981F88763000D7D049 /* Gandhi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE0B1D258E40005FBC55 /* Gandhi.jpg */; };
+		533292991F88763000D7D049 /* Khan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE0C1D258E40005FBC55 /* Khan.jpg */; };
+		5332929A1F88763000D7D049 /* Lincoln.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE0D1D258E40005FBC55 /* Lincoln.jpg */; };
+		5332929B1F88763000D7D049 /* Mandela.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE0E1D258E40005FBC55 /* Mandela.jpg */; };
+		5332929C1F88763000D7D049 /* McCartney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE0F1D258E40005FBC55 /* McCartney.jpg */; };
+		5332929D1F88763000D7D049 /* Newton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE101D258E40005FBC55 /* Newton.jpg */; };
+		5332929E1F88763C00D7D049 /* Bonaparte.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE1D1D258E4C005FBC55 /* Bonaparte.vcf */; };
+		5332929F1F88763C00D7D049 /* Caesar.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE1E1D258E4C005FBC55 /* Caesar.vcf */; };
+		533292A01F88763C00D7D049 /* Darwin.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE1F1D258E4C005FBC55 /* Darwin.vcf */; };
+		533292A11F88763C00D7D049 /* Einstein.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE201D258E4C005FBC55 /* Einstein.vcf */; };
+		533292A21F88763C00D7D049 /* Galilei.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE211D258E4C005FBC55 /* Galilei.vcf */; };
+		533292A31F88763C00D7D049 /* Gandhi.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE221D258E4C005FBC55 /* Gandhi.vcf */; };
+		533292A41F88763C00D7D049 /* Khan.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE231D258E4C005FBC55 /* Khan.vcf */; };
+		533292A51F88763C00D7D049 /* Lincoln.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE241D258E4C005FBC55 /* Lincoln.vcf */; };
+		533292A61F88763C00D7D049 /* Mandela.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE251D258E4C005FBC55 /* Mandela.vcf */; };
+		533292A71F88763C00D7D049 /* McCartney.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE261D258E4C005FBC55 /* McCartney.vcf */; };
+		533292A81F88763C00D7D049 /* Newton.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 202BAE271D258E4C005FBC55 /* Newton.vcf */; };
+		533292A91F88764600D7D049 /* PersonPopulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202BAE331D259894005FBC55 /* PersonPopulator.swift */; };
+		533292AA1F887A1B00D7D049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5332928E1F88751C00D7D049 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		533292731F88736F00D7D049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 202BADE81D258E2B005FBC55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533292601F88736F00D7D049;
+			remoteInfo = "Persona-macOS";
+		};
+		5332927E1F88736F00D7D049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 202BADE81D258E2B005FBC55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533292601F88736F00D7D049;
+			remoteInfo = "Persona-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		202BADF01D258E2B005FBC55 /* Persona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persona.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		202BADF31D258E2B005FBC55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		202BADF51D258E2B005FBC55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		202BADF81D258E2B005FBC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		202BADFA1D258E2B005FBC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		202BADFD1D258E2B005FBC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		202BADFF1D258E2B005FBC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202BAE061D258E40005FBC55 /* Bonaparte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bonaparte.jpg; sourceTree = "<group>"; };
+		202BAE071D258E40005FBC55 /* Caesar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Caesar.jpg; sourceTree = "<group>"; };
+		202BAE081D258E40005FBC55 /* Darwin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Darwin.jpg; sourceTree = "<group>"; };
+		202BAE091D258E40005FBC55 /* Einstein.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Einstein.jpg; sourceTree = "<group>"; };
+		202BAE0A1D258E40005FBC55 /* Galilei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Galilei.jpg; sourceTree = "<group>"; };
+		202BAE0B1D258E40005FBC55 /* Gandhi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gandhi.jpg; sourceTree = "<group>"; };
+		202BAE0C1D258E40005FBC55 /* Khan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Khan.jpg; sourceTree = "<group>"; };
+		202BAE0D1D258E40005FBC55 /* Lincoln.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lincoln.jpg; sourceTree = "<group>"; };
+		202BAE0E1D258E40005FBC55 /* Mandela.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mandela.jpg; sourceTree = "<group>"; };
+		202BAE0F1D258E40005FBC55 /* McCartney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = McCartney.jpg; sourceTree = "<group>"; };
+		202BAE101D258E40005FBC55 /* Newton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Newton.jpg; sourceTree = "<group>"; };
+		202BAE1D1D258E4C005FBC55 /* Bonaparte.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bonaparte.vcf; sourceTree = "<group>"; };
+		202BAE1E1D258E4C005FBC55 /* Caesar.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Caesar.vcf; sourceTree = "<group>"; };
+		202BAE1F1D258E4C005FBC55 /* Darwin.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Darwin.vcf; sourceTree = "<group>"; };
+		202BAE201D258E4C005FBC55 /* Einstein.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Einstein.vcf; sourceTree = "<group>"; };
+		202BAE211D258E4C005FBC55 /* Galilei.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Galilei.vcf; sourceTree = "<group>"; };
+		202BAE221D258E4C005FBC55 /* Gandhi.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gandhi.vcf; sourceTree = "<group>"; };
+		202BAE231D258E4C005FBC55 /* Khan.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Khan.vcf; sourceTree = "<group>"; };
+		202BAE241D258E4C005FBC55 /* Lincoln.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lincoln.vcf; sourceTree = "<group>"; };
+		202BAE251D258E4C005FBC55 /* Mandela.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mandela.vcf; sourceTree = "<group>"; };
+		202BAE261D258E4C005FBC55 /* McCartney.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = McCartney.vcf; sourceTree = "<group>"; };
+		202BAE271D258E4C005FBC55 /* Newton.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Newton.vcf; sourceTree = "<group>"; };
+		202BAE331D259894005FBC55 /* PersonPopulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonPopulator.swift; sourceTree = "<group>"; };
+		533292611F88736F00D7D049 /* Persona-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Persona-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533292671F88736F00D7D049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5332926C1F88736F00D7D049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5332926D1F88736F00D7D049 /* Persona_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Persona_macOS.entitlements; sourceTree = "<group>"; };
+		533292721F88736F00D7D049 /* Persona-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persona-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533292761F88736F00D7D049 /* Persona_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona_macOSTests.swift; sourceTree = "<group>"; };
+		533292781F88736F00D7D049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5332927D1F88736F00D7D049 /* Persona-macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persona-macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533292811F88736F00D7D049 /* Persona_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona_macOSUITests.swift; sourceTree = "<group>"; };
+		533292831F88736F00D7D049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5332928D1F88751B00D7D049 /* Persona-macOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Persona-macOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		5332928E1F88751C00D7D049 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5332928F1F88751C00D7D049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		533292901F88751C00D7D049 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		202BADED1D258E2B005FBC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5332925E1F88736F00D7D049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5332926F1F88736F00D7D049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5332927A1F88736F00D7D049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		202BADE71D258E2B005FBC55 = {
+			isa = PBXGroup;
+			children = (
+				533292AB1F88813500D7D049 /* Commons */,
+				202BAE051D258E40005FBC55 /* Images */,
+				202BAE1C1D258E4C005FBC55 /* vCards */,
+				202BADF21D258E2B005FBC55 /* Persona */,
+				533292621F88736F00D7D049 /* Persona-macOS */,
+				533292751F88736F00D7D049 /* Persona-macOSTests */,
+				533292801F88736F00D7D049 /* Persona-macOSUITests */,
+				202BADF11D258E2B005FBC55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		202BADF11D258E2B005FBC55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				202BADF01D258E2B005FBC55 /* Persona.app */,
+				533292611F88736F00D7D049 /* Persona-macOS.app */,
+				533292721F88736F00D7D049 /* Persona-macOSTests.xctest */,
+				5332927D1F88736F00D7D049 /* Persona-macOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		202BADF21D258E2B005FBC55 /* Persona */ = {
+			isa = PBXGroup;
+			children = (
+				202BADF31D258E2B005FBC55 /* AppDelegate.swift */,
+				202BADF51D258E2B005FBC55 /* ViewController.swift */,
+				202BADF71D258E2B005FBC55 /* Main.storyboard */,
+				202BADFC1D258E2B005FBC55 /* LaunchScreen.storyboard */,
+				202BADFA1D258E2B005FBC55 /* Assets.xcassets */,
+				202BADFF1D258E2B005FBC55 /* Info.plist */,
+			);
+			path = Persona;
+			sourceTree = "<group>";
+		};
+		202BAE051D258E40005FBC55 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				202BAE061D258E40005FBC55 /* Bonaparte.jpg */,
+				202BAE071D258E40005FBC55 /* Caesar.jpg */,
+				202BAE081D258E40005FBC55 /* Darwin.jpg */,
+				202BAE091D258E40005FBC55 /* Einstein.jpg */,
+				202BAE0A1D258E40005FBC55 /* Galilei.jpg */,
+				202BAE0B1D258E40005FBC55 /* Gandhi.jpg */,
+				202BAE0C1D258E40005FBC55 /* Khan.jpg */,
+				202BAE0D1D258E40005FBC55 /* Lincoln.jpg */,
+				202BAE0E1D258E40005FBC55 /* Mandela.jpg */,
+				202BAE0F1D258E40005FBC55 /* McCartney.jpg */,
+				202BAE101D258E40005FBC55 /* Newton.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		202BAE1C1D258E4C005FBC55 /* vCards */ = {
+			isa = PBXGroup;
+			children = (
+				202BAE1D1D258E4C005FBC55 /* Bonaparte.vcf */,
+				202BAE1E1D258E4C005FBC55 /* Caesar.vcf */,
+				202BAE1F1D258E4C005FBC55 /* Darwin.vcf */,
+				202BAE201D258E4C005FBC55 /* Einstein.vcf */,
+				202BAE211D258E4C005FBC55 /* Galilei.vcf */,
+				202BAE221D258E4C005FBC55 /* Gandhi.vcf */,
+				202BAE231D258E4C005FBC55 /* Khan.vcf */,
+				202BAE241D258E4C005FBC55 /* Lincoln.vcf */,
+				202BAE251D258E4C005FBC55 /* Mandela.vcf */,
+				202BAE261D258E4C005FBC55 /* McCartney.vcf */,
+				202BAE271D258E4C005FBC55 /* Newton.vcf */,
+			);
+			path = vCards;
+			sourceTree = "<group>";
+		};
+		533292621F88736F00D7D049 /* Persona-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5332928F1F88751C00D7D049 /* AppDelegate.swift */,
+				533292901F88751C00D7D049 /* ViewController.swift */,
+				5332928E1F88751C00D7D049 /* Main.storyboard */,
+				533292671F88736F00D7D049 /* Assets.xcassets */,
+				5332926C1F88736F00D7D049 /* Info.plist */,
+				5332926D1F88736F00D7D049 /* Persona_macOS.entitlements */,
+				5332928D1F88751B00D7D049 /* Persona-macOS-Bridging-Header.h */,
+			);
+			path = "Persona-macOS";
+			sourceTree = "<group>";
+		};
+		533292751F88736F00D7D049 /* Persona-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				533292761F88736F00D7D049 /* Persona_macOSTests.swift */,
+				533292781F88736F00D7D049 /* Info.plist */,
+			);
+			path = "Persona-macOSTests";
+			sourceTree = "<group>";
+		};
+		533292801F88736F00D7D049 /* Persona-macOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				533292811F88736F00D7D049 /* Persona_macOSUITests.swift */,
+				533292831F88736F00D7D049 /* Info.plist */,
+			);
+			path = "Persona-macOSUITests";
+			sourceTree = "<group>";
+		};
+		533292AB1F88813500D7D049 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				202BAE331D259894005FBC55 /* PersonPopulator.swift */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		202BADEF1D258E2B005FBC55 /* Persona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202BAE021D258E2B005FBC55 /* Build configuration list for PBXNativeTarget "Persona" */;
+			buildPhases = (
+				202BADEC1D258E2B005FBC55 /* Sources */,
+				202BADED1D258E2B005FBC55 /* Frameworks */,
+				202BADEE1D258E2B005FBC55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Persona;
+			productName = Persona;
+			productReference = 202BADF01D258E2B005FBC55 /* Persona.app */;
+			productType = "com.apple.product-type.application";
+		};
+		533292601F88736F00D7D049 /* Persona-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533292841F88736F00D7D049 /* Build configuration list for PBXNativeTarget "Persona-macOS" */;
+			buildPhases = (
+				5332925D1F88736F00D7D049 /* Sources */,
+				5332925E1F88736F00D7D049 /* Frameworks */,
+				5332925F1F88736F00D7D049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Persona-macOS";
+			productName = "Persona-macOS";
+			productReference = 533292611F88736F00D7D049 /* Persona-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		533292711F88736F00D7D049 /* Persona-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533292871F88736F00D7D049 /* Build configuration list for PBXNativeTarget "Persona-macOSTests" */;
+			buildPhases = (
+				5332926E1F88736F00D7D049 /* Sources */,
+				5332926F1F88736F00D7D049 /* Frameworks */,
+				533292701F88736F00D7D049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533292741F88736F00D7D049 /* PBXTargetDependency */,
+			);
+			name = "Persona-macOSTests";
+			productName = "Persona-macOSTests";
+			productReference = 533292721F88736F00D7D049 /* Persona-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5332927C1F88736F00D7D049 /* Persona-macOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5332928A1F88736F00D7D049 /* Build configuration list for PBXNativeTarget "Persona-macOSUITests" */;
+			buildPhases = (
+				533292791F88736F00D7D049 /* Sources */,
+				5332927A1F88736F00D7D049 /* Frameworks */,
+				5332927B1F88736F00D7D049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5332927F1F88736F00D7D049 /* PBXTargetDependency */,
+			);
+			name = "Persona-macOSUITests";
+			productName = "Persona-macOSUITests";
+			productReference = 5332927D1F88736F00D7D049 /* Persona-macOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		202BADE81D258E2B005FBC55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Happy Guy";
+				TargetAttributes = {
+					202BADEF1D258E2B005FBC55 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = J33D983F34;
+						LastSwiftMigration = 0900;
+					};
+					533292601F88736F00D7D049 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = VQQ6RY49MQ;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					533292711F88736F00D7D049 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = VQQ6RY49MQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 533292601F88736F00D7D049;
+					};
+					5332927C1F88736F00D7D049 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = VQQ6RY49MQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 533292601F88736F00D7D049;
+					};
+				};
+			};
+			buildConfigurationList = 202BADEB1D258E2B005FBC55 /* Build configuration list for PBXProject "Persona" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 202BADE71D258E2B005FBC55;
+			productRefGroup = 202BADF11D258E2B005FBC55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				202BADEF1D258E2B005FBC55 /* Persona */,
+				533292601F88736F00D7D049 /* Persona-macOS */,
+				533292711F88736F00D7D049 /* Persona-macOSTests */,
+				5332927C1F88736F00D7D049 /* Persona-macOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		202BADEE1D258E2B005FBC55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202BAE111D258E40005FBC55 /* Bonaparte.jpg in Resources */,
+				202BAE181D258E40005FBC55 /* Lincoln.jpg in Resources */,
+				202BAE2C1D258E4C005FBC55 /* Galilei.vcf in Resources */,
+				202BAE2B1D258E4C005FBC55 /* Einstein.vcf in Resources */,
+				202BAE1B1D258E40005FBC55 /* Newton.jpg in Resources */,
+				202BAE151D258E40005FBC55 /* Galilei.jpg in Resources */,
+				202BAE2D1D258E4C005FBC55 /* Gandhi.vcf in Resources */,
+				202BAE141D258E40005FBC55 /* Einstein.jpg in Resources */,
+				202BAE311D258E4C005FBC55 /* McCartney.vcf in Resources */,
+				202BAE2E1D258E4C005FBC55 /* Khan.vcf in Resources */,
+				202BAE191D258E40005FBC55 /* Mandela.jpg in Resources */,
+				202BAE291D258E4C005FBC55 /* Caesar.vcf in Resources */,
+				202BAE2F1D258E4C005FBC55 /* Lincoln.vcf in Resources */,
+				202BAE1A1D258E40005FBC55 /* McCartney.jpg in Resources */,
+				202BADFE1D258E2B005FBC55 /* LaunchScreen.storyboard in Resources */,
+				202BAE131D258E40005FBC55 /* Darwin.jpg in Resources */,
+				202BAE281D258E4C005FBC55 /* Bonaparte.vcf in Resources */,
+				202BADFB1D258E2B005FBC55 /* Assets.xcassets in Resources */,
+				202BAE321D258E4C005FBC55 /* Newton.vcf in Resources */,
+				202BAE301D258E4C005FBC55 /* Mandela.vcf in Resources */,
+				202BAE161D258E40005FBC55 /* Gandhi.jpg in Resources */,
+				202BAE171D258E40005FBC55 /* Khan.jpg in Resources */,
+				202BAE2A1D258E4C005FBC55 /* Darwin.vcf in Resources */,
+				202BAE121D258E40005FBC55 /* Caesar.jpg in Resources */,
+				202BADF91D258E2B005FBC55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5332925F1F88736F00D7D049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533292941F88763000D7D049 /* Caesar.jpg in Resources */,
+				5332929E1F88763C00D7D049 /* Bonaparte.vcf in Resources */,
+				533292A21F88763C00D7D049 /* Galilei.vcf in Resources */,
+				533292AA1F887A1B00D7D049 /* Main.storyboard in Resources */,
+				533292991F88763000D7D049 /* Khan.jpg in Resources */,
+				533292931F88763000D7D049 /* Bonaparte.jpg in Resources */,
+				533292A81F88763C00D7D049 /* Newton.vcf in Resources */,
+				533292951F88763000D7D049 /* Darwin.jpg in Resources */,
+				533292A31F88763C00D7D049 /* Gandhi.vcf in Resources */,
+				5332929D1F88763000D7D049 /* Newton.jpg in Resources */,
+				5332929F1F88763C00D7D049 /* Caesar.vcf in Resources */,
+				5332929B1F88763000D7D049 /* Mandela.jpg in Resources */,
+				533292A11F88763C00D7D049 /* Einstein.vcf in Resources */,
+				533292A51F88763C00D7D049 /* Lincoln.vcf in Resources */,
+				533292981F88763000D7D049 /* Gandhi.jpg in Resources */,
+				533292681F88736F00D7D049 /* Assets.xcassets in Resources */,
+				5332929A1F88763000D7D049 /* Lincoln.jpg in Resources */,
+				533292A01F88763C00D7D049 /* Darwin.vcf in Resources */,
+				533292A71F88763C00D7D049 /* McCartney.vcf in Resources */,
+				533292A61F88763C00D7D049 /* Mandela.vcf in Resources */,
+				5332929C1F88763000D7D049 /* McCartney.jpg in Resources */,
+				533292961F88763000D7D049 /* Einstein.jpg in Resources */,
+				533292A41F88763C00D7D049 /* Khan.vcf in Resources */,
+				533292971F88763000D7D049 /* Galilei.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533292701F88736F00D7D049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5332927B1F88736F00D7D049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		202BADEC1D258E2B005FBC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202BAE341D259894005FBC55 /* PersonPopulator.swift in Sources */,
+				202BADF61D258E2B005FBC55 /* ViewController.swift in Sources */,
+				202BADF41D258E2B005FBC55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5332925D1F88736F00D7D049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533292A91F88764600D7D049 /* PersonPopulator.swift in Sources */,
+				533292921F88751C00D7D049 /* ViewController.swift in Sources */,
+				533292911F88751C00D7D049 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5332926E1F88736F00D7D049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533292771F88736F00D7D049 /* Persona_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533292791F88736F00D7D049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533292821F88736F00D7D049 /* Persona_macOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		533292741F88736F00D7D049 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533292601F88736F00D7D049 /* Persona-macOS */;
+			targetProxy = 533292731F88736F00D7D049 /* PBXContainerItemProxy */;
+		};
+		5332927F1F88736F00D7D049 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533292601F88736F00D7D049 /* Persona-macOS */;
+			targetProxy = 5332927E1F88736F00D7D049 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		202BADF71D258E2B005FBC55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202BADF81D258E2B005FBC55 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		202BADFC1D258E2B005FBC55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202BADFD1D258E2B005FBC55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		202BAE001D258E2B005FBC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		202BAE011D258E2B005FBC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		202BAE031D258E2B005FBC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J33D983F34;
+				INFOPLIST_FILE = Persona/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xappox.Persona;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		202BAE041D258E2B005FBC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J33D983F34;
+				INFOPLIST_FILE = Persona/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xappox.Persona;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		533292851F88736F00D7D049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "Persona-macOS/Persona_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VQQ6RY49MQ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Persona-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "DVC.Persona-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Persona-macOS/Persona-macOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		533292861F88736F00D7D049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "Persona-macOS/Persona_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VQQ6RY49MQ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Persona-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "DVC.Persona-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Persona-macOS/Persona-macOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		533292881F88736F00D7D049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VQQ6RY49MQ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Persona-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "DVC.Persona-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persona-macOS.app/Contents/MacOS/Persona-macOS";
+			};
+			name = Debug;
+		};
+		533292891F88736F00D7D049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VQQ6RY49MQ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Persona-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "DVC.Persona-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persona-macOS.app/Contents/MacOS/Persona-macOS";
+			};
+			name = Release;
+		};
+		5332928B1F88736F00D7D049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VQQ6RY49MQ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Persona-macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "DVC.Persona-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Persona-macOS";
+			};
+			name = Debug;
+		};
+		5332928C1F88736F00D7D049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VQQ6RY49MQ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Persona-macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "DVC.Persona-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Persona-macOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		202BADEB1D258E2B005FBC55 /* Build configuration list for PBXProject "Persona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202BAE001D258E2B005FBC55 /* Debug */,
+				202BAE011D258E2B005FBC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202BAE021D258E2B005FBC55 /* Build configuration list for PBXNativeTarget "Persona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202BAE031D258E2B005FBC55 /* Debug */,
+				202BAE041D258E2B005FBC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533292841F88736F00D7D049 /* Build configuration list for PBXNativeTarget "Persona-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533292851F88736F00D7D049 /* Debug */,
+				533292861F88736F00D7D049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533292871F88736F00D7D049 /* Build configuration list for PBXNativeTarget "Persona-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533292881F88736F00D7D049 /* Debug */,
+				533292891F88736F00D7D049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5332928A1F88736F00D7D049 /* Build configuration list for PBXNativeTarget "Persona-macOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5332928B1F88736F00D7D049 /* Debug */,
+				5332928C1F88736F00D7D049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 202BADE81D258E2B005FBC55 /* Project object */;
+}
