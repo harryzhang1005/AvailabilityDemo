@@ -93,11 +93,13 @@ You can also combine a renamed argument with an unavailable argument that helps 
 ## The following is a list of the platforms you can specify availability for:
 
 iOS, OSX, tvOS, watchOS
+
 iOS/OSX/tvOS/watchOS/ApplicationExtension
 
 The platforms that end with ~ApplicationExtension are extensions like custom keyboards, Notification Center widgets, and document providers.
 
-Note: The asterisk in the shorthand syntax tells the compiler that the declaration is available on the minimum deployment target on any other platform.
+__Note:__ The asterisk in the shorthand syntax tells the compiler that the declaration is available on the minimum deployment target on any other platform.
+
 For example, @available(iOS 9.0, *) states that the declaration is available on iOS 9.0 or greater, as well as on the deployment target of any other platform you support in the project.
 
 On the other hand, @available(*, unavailable) states that the declaration is unavailable on every platform supported in your project.
