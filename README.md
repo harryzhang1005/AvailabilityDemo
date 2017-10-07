@@ -64,30 +64,36 @@ This means that all of the following can be preceded by an attribute:
 Classes, Structs, Enums, Enum cases, Methods, Functions
 
 To indicate the first version of an operating system that a declaration is available, use the following code:
+```Swift
 @available(iOS, introduced: 9.0)
+```
 
 The shorthand, and preferred syntax, for making the first version available is shown below:
+```Swift
 @available(iOS 9.0, *)
+```
 
 This shorthand syntax allows you to include multiple "introduced:" attributes in a single attribute:
+```Swift
 @available(iOS, introduced: 9.0)
 @available(OSX, introduced: 10.11)
 @available(iOS 9.0, OSX 10.11, *)		// same with the above two lines
+```
 
 Other attributes specify that a certain declaration no longer works:
+```Swift
 @available(watchOS, unavailable)		// means not available on any version of the specified platform
 @available(watchOS, deprecated: 3.0)
 @available(watchOS, obsoleted: 3.0)
+```
 
 You can also combine a renamed argument with an unavailable argument that helps Xcode provide autocomplete support when used incorrectly.
 @available(iOS, unavailable, renamed: "NewName")
 
 ## The following is a list of the platforms you can specify availability for:
+
 iOS, OSX, tvOS, watchOS
-iOSApplicationExtension
-OSXApplicationExtension
-tvOSApplicationExtension
-watchOSApplicationExtension
+iOS/OSX/tvOS/watchOS/ApplicationExtension
 
 The platforms that end with ~ApplicationExtension are extensions like custom keyboards, Notification Center widgets, and document providers.
 
